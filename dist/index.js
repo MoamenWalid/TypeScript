@@ -60,6 +60,11 @@ function checkTypes(input) {
 }
 /* Unknown type */
 /* Never type */
+/**
+ * the difference between void and never type is:
+ * void reach the end of the function, but never dosen't reach it.
+ *
+ */
 function generateError(message) {
     throw new Error(message);
     console.log("Hello");
